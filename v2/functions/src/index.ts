@@ -11,13 +11,3 @@ export const helloWorld = functions.https.onRequest((request, response) => {
   response.send("Hello from woahhhhhh!");
 });
 
-// exports.agoraToken = functions.https.onCall((data, context) => {
-//   console.log(data);
-
-//   console.log("user's id: " + context.auth?.uid);
-//   const channelName = data.channelName;
-
-//   let token = agora.getAgoraToken(channelName);
-
-//   return { token };
-// });
