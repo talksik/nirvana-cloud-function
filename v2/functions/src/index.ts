@@ -7,7 +7,9 @@ admin.initializeApp();
 // // https://firebase.google.com/docs/functions/typescript
 //
 export const helloWorld = functions.https.onRequest((request, response) => {
-  functions.logger.info("Hello no!", {structuredData: true});
+  functions.logger.info("Hello no!", { structuredData: true });
   response.send("Hello from woahhhhhh!");
 });
 
+import { agoraToken } from "./agora";
+exports.agoraToken = agoraToken;
