@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "nirvana-ccf04",
+    "nirvana-for-business-dev": "nirvana-for-business"
+  },
+  "targets": {}
+}
